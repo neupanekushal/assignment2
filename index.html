@@ -7,10 +7,42 @@
   <body>
     <h3>Kushal Neupane</h4>
     <img src = 'myphoto.jpg' width="250" height="250" alt="my photo"/>
-    <p> Hi, Its me Kushal Neupane. Currently I am living and studying in Frankfurt, Germany. <br>
-        My hobbies are travelling, playing football, music and movies. I am currently doing a Full  <br>
-        Stack developement course with knowledge hut. My favourite sports are football, cricket <br>
+    <p> Hi, Its me Kushal Neupane. Currently I am living and studying in Frankfurt, Germany. </br>
+        My hobbies are travelling, playing football, music and movies. I am currently doing a Full  </br>
+        Stack developement course with knowledge hut. My favourite sports are football, cricket </br>
         and Table tennis. </p>
+
+    <hr/>
+
+    <form action="/Mydata">
+     <label> Username*:</label> 
+     <input type="text" placeholder="Enter your Name" required/> </br>
+     <label> Email*:</label>
+     <input type="email" placeholder="Type your email" required/> </br/>
+     <label>Date of birth*:</label>
+     <input type="date"/> </br>
+     <label> Marital Status*: </label>
+     <label><input type="radio" name="status"/> married </label>
+     <label><input type="radio" name="status"/> unmarried </label> </br>
+
+     <label> Gender*: </label>
+     <label><input type="radio" name="gender"/> male </label>
+     <label><input type="radio" name="gender"/> female </label>
+    </br>
+
+     <input type="text" placeholder="enter your favourite color"/> </br>
+     <label>select an image to upload: </label>
+     <input type="file" id="myFile" name="filename"/>
+     
+    </br>
+     
+     <button type="submit"> submit</button>
+     
+    </form>
+
+
+
+
 
   </body>
 </html>
